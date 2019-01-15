@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bwei.iloginorregui">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.MyApp"
+        android:allowBackup="true"
+        android:icon="@drawable/app_tubiao"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="design_width"
+            android:value="720" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+
+        <activity android:name=".activity.YinDaoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RegActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.ShoppingActivity" />
+        <activity android:name=".activity.SeekActivity" />
+        <activity android:name=".activity.my_page.My_ProfileActivity" />
+        <activity android:name=".activity.my_page.My_Shipping_AddressActivity" />
+        <activity android:name=".activity.DetailsActivity" />
+        <activity android:name=".activity.my_page.NewAddessActivity" />
+        <activity android:name=".activity.my_page.WalletActivity" />
+        <activity android:name=".activity.my_page.FootprintActivity" />
+        <activity android:name=".activity.my_page.MyCircleActivity"></activity>
+        <activity android:name=".activity.JSActivity"/>
+        <activity android:name=".activity.XQActivity"/>
+        <activity android:name=".activity.ZFActivity"/>
+    </application>
+
+</manifest>

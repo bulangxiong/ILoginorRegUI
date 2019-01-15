@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="120dp">
+    <ImageView
+        android:id="@+id/label_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/category_icon_coat_n_xxhdpi"/>
+    <TextView
+        android:id="@+id/text_label_title"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textColor="@color/commdity_text_color"
+        android:text="打底毛衣"/>
+</LinearLayout>
